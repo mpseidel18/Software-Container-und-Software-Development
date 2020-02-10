@@ -1,17 +1,31 @@
 \documentclass{article}
-\renewcommand*\contentsname{Inhalt}
+\usepackage{german}
 
 \begin{document}
-\begin{titlepage}
-    \centering
-    {\LARGE Studienarbeit}
-    \par\vspace{1cm}
-    Projektmanagement
-    \vfill
-    Felix Rilling
-    \par\vspace{1cm}
-    {\large \today\par}
-\end{titlepage}
+
+\title{Introduction to \LaTeX{}}
+\author{Author's Name}
+
+\maketitle
+
+\begin{abstract}
+The abstract text goes here.
+\end{abstract}
 
 \tableofcontents
-\newpage
+
+\section{Einleitung}
+Here is the text of your introduction.
+
+\begin{equation}
+    \label{simple_equation}
+    \alpha = \sqrt{ \beta }
+\end{equation}
+
+\subsection{Subway}
+Write your subsection text here.
+
+\section{Abschluss}
+Write your conclusion here.
+
+\end{document}
